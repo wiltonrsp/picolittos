@@ -41,11 +41,11 @@ services:
 
     - SMTP_ENABLED=false
     - SMTP_METHOD=smtp
-    - SMTP_DOMAIN=www.example.com
-    - SMTP_HOST=smtp.gmail.com
-    - SMTP_PORT=587
-    - SMTP_USER=mailer@example.com
-    - SMTP_PASS=password
+    - SMTP_DOMAIN=www.picolittos.com.br
+    - SMTP_HOST=mail.picolittos.com.br
+    - SMTP_PORT=465
+    - SMTP_USER=redmine@picolittos.com.br
+    - SMTP_PASS=xzsawq21
     - SMTP_STARTTLS=true
     - SMTP_AUTHENTICATION=:login
 
